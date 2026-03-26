@@ -1,0 +1,189 @@
+/* ---------- BASIC RESET ---------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ---------- COLORS ---------- */
+:root {
+  --forest: #0e2a1a;
+  --leaf: #2f7d52;
+  --lime: #6abf6e;
+  --gold: #c8a84b;
+  --gold-light: #e2c97e;
+  --cream: #f4ede0;
+  --white: #ffffff;
+  --text-dark: #0e1f14;
+  --text-mid: #3a5040;
+}
+
+/* ---------- BODY ---------- */
+body {
+  background: var(--white);
+  font-family: "DM Sans", sans-serif;
+}
+
+/* ---------- NAVBAR ---------- */
+.nav {
+  background: var(--forest);
+  padding: 12px 20px;
+  color: var(--white);
+  font-size: 0.9rem;
+  letter-spacing: 0.05em;
+}
+
+.nav a {
+  margin-right: 18px;
+  color: var(--gold);
+  text-decoration: none;
+}
+.nav a:hover {
+  color: var(--gold-light);
+}
+
+.logo {
+    font-weight: 700;
+    margin-right: 20px;
+}
+
+/* ---------- HERO SECTION ---------- */
+.hero {
+  padding: 100px 20px;
+  background: var(--forest);
+  color: var(--white);
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-family: "Cormorant Garamond", serif;
+  line-height: 1.15;
+}
+
+.hero-title strong {
+  color: var(--lime);
+}
+
+.hero-title em {
+  color: var(--gold);
+}
+
+.hero-sub {
+  margin-top: 20px;
+  color: #e7f1e8;
+  max-width: 600px;
+  font-size: 1.1rem;
+}
+
+/* ---------- SECTIONS ---------- */
+.section {
+  padding: 60px 20px 30px;
+}
+
+.section-label {
+  color: var(--leaf);
+  font-size: 0.8rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.section-title {
+  font-size: 2.4rem;
+  font-family: "Cormorant Garamond", serif;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.section-title em {
+  color: var(--leaf);
+}
+
+/* ---------- SERVICE CARDS ---------- */
+.service-card {
+  background: var(--cream);
+  padding: 22px;
+  margin: 10px 0;
+  border-left: 4px solid var(--leaf);
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.08);
+}
+
+.service-icon {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+/* ---------- PROCESS STEPS ---------- */
+.step {
+  background: var(--cream);
+  padding: 24px;
+  border-radius: 6px;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.step-num {
+  font-size: 1.4rem;
+  font-family: "Space Mono", monospace;
+  color: var(--leaf);
+}
+
+.step h4 {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+.step p {
+  margin-top: 6px;
+  color: var(--text-mid);
+}
+
+/* ---------- BLOG ---------- */
+.blog-card {
+  padding: 22px;
+  margin: 12px 0;
+  background: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #eee;
+}
+
+.blog-thumb {
+  font-size: 3rem;
+}
+
+.blog-card h3 {
+  margin-top: 10px;
+  font-size: 1.3rem;
+  color: var(--forest);
+}
+
+/* ---------- CONTACT ---------- */
+form input, form textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+button {
+  background: var(--gold);
+  padding: 10px 18px;
+  border-radius: 6px;
+  border: none;
+  color: var(--forest);
+  cursor: pointer;
+}
+button:hover {
+  background: var(--gold-light);
+}
+
+/* ---------- FOOTER ---------- */
+footer {
+  margin-top: 50px;
+  padding: 20px;
+  text-align: center;
+  color: var(--text-mid);
+}
